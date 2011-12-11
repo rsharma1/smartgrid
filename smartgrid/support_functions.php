@@ -22,6 +22,7 @@ function getHeader() {
     $html .= "<link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\" />\n";
     $html .= "<link rel=\"stylesheet\" href=\"nav.css\" type=\"text/css\" />\n";
     $html .= "<link rel=\"stylesheet\" href=\"grid.css\" type=\"text/css\" />\n\n";
+	$html .="<script type=\"text/javascript\" src=\"jscript.js\"></script>\n\n";
     //title
     $html .= "<title>Smart Grid</title>\n\n";
     //end head
