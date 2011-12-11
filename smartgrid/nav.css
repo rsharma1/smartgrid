@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+
+/* CSS Document for navigation CSS */
+
+/*this is for the navigation along the top of the page, just under the header */
+
+/*the div that holds the navigation list */
+.navigation {
+	float: none;
+	background-color: #DFFCD2;
+}
+
+.nav {
+	font-size: 135%;
+	float: none;
+	margin: 0px auto 0px auto;
+	width: 950px;
+	z-index: 5; /*DO NOT EDIT:*/
+	/* it needs to be above the other elements, otherwise drop-down elements will be hidden*/
+}
+
+.nav li {
+	display: block;
+	float:left;
+	margin-right: 10px;
+	padding: 0em 0 .15em 0;
+}
+
+.nav li a {
+	display: block;
+	height: 1em;
+	text-decoration: none;
+	padding: .75em .45em .75em .45em;
+	color: #009933;
+    min-width: 75%;
+}
+
+.nav li a:hover {
+	color: #fff;
+	background-color: #006600;
+}
+
+/* For the Dropdown menus */
+
+.nav ul {
+	background: #006600;
+	list-style:none;
+	position: absolute;
+	margin-left:-9999px;
+}
+
+.nav ul li {
+	padding-top: 1px;
+	float:none;
+    min-width: 164px;
+}
+
+.nav ul a {
+	white-space:nowrap /* prevents text wrapping */
+    width: 100%;
+}
+
+.nav ul li a {
+    width: 95%;
+}
+
+.nav li:hover ul { /*displays the dropdown on hover */
+	margin-left: 0px; /* shows it! remember where we hid it on line 47 */
+    
+}
+
+.nav li:hover a { /* creates a persistent hover state */
+	background: #006600;
+	color: #fff;
+	margin: 0 auto 0 auto;
+}
+
+.nav li:hover ul a { /* persistent hover bugs global links, so that has to be fixed. */
+	text-decoration: none;
+}
+
+.nav li:hover ul li a:hover { /* define what happens when each link in the list is hovered over */
+	background-color: #DFFCD2;
+	color: #009933;
+}

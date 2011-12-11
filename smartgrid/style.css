@@ -1,0 +1,126 @@
+html{
+	padding: 0;
+	margin: 0;	
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;	
+}
+
+div {
+    margin: 20px 0 0 0;
+}
+
+/*paragraph styling */
+
+p {
+    margin: .5em 0;
+}
+
+
+/*not resetting this causes bugs! */
+ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/*header info */
+
+h1 {
+	font-weight: normal;
+	font-size: 150%;
+}
+
+/*for float bugfixing purposes */
+.clear {
+    margin: 0;
+    clear:both;
+}
+
+.wrapper {
+	float: none;
+	margin: 0px auto 0 auto;
+	/*border: #DFFCD2 4px solid;*/
+	/* border: red 1px solid; */ /* this is for bugfixing */
+}
+
+.header {
+	background-color: #ccc;
+	height: 100px;
+}
+
+/* for the sidebar */
+
+.sidebar {
+	background-color: #DFFCD2;
+	margin: 0em auto 0 auto;
+	padding: .5em;
+}
+
+.columnlist {
+    margin-left: 1em;
+    list-style-type:disc;
+}
+
+/*this div will dictate content styling below the nav */
+
+.contentholder {
+	font-size: 90%;
+}
+
+.contentholder a {
+	color: #009500;
+	border-bottom: #009500 1px dotted;
+	text-decoration: none;
+}
+
+.contentholder a:visited {
+	color: #006633;
+	border-bottom: #006633 1px dotted;
+	text-decoration: none;
+}
+
+.contentholder a:hover {
+	color: #006633;
+	border-bottom: #006633 1px dotted;
+	text-decoration: none;
+}
+
+.contentholder a:active {
+	color: #DFFCD2;
+	border-bottom: #DFFCD2 1px dotted;
+	text-decoration: none;
+}
+
+.contentholder ul {
+	list-style-type: disc;
+	margin-left: 1.5em;	
+}
+
+/*styling to hold a "pretend image" - that is, an image holder.*/
+.pretendimg {
+    height: 100px;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* this styling is purely for the main content area */
+
+.homepage h1 {
+	border-bottom: #DFFCD2 3px dotted;
+    margin-bottom: 0;
+}
