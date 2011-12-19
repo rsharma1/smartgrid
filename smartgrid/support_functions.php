@@ -86,26 +86,13 @@ function getNav() {
 
     $html .= "<div class=\"grid_16 navigation\">\n";
 	$html .= "<ul class=\"nav\">\n";
-    $html .= "<li>";
-    $html .= "<a href=\"#\">Drop-Down Link</a>\n";
-    $html .= "<ul>\n";
-    $html .= "<li><a href=\"#\">A Link</a></li>\n";
-    $html .= "<li><a href=\"#\">Another Link</a></li>\n";
-    $html .= "</ul>\n";
-    $html .= "</li>\n";
-    $html .= "<li><a href=\"#\">Link</a></li>\n";
-    $html .= "<li><a href=\"#\">Link</a></li>\n";
+    $html .= "<li><a href=\"index.html\" title=\"Home\">Home</a></li>\n";
     $html .= "<li>\n";
-    $html .= "<a href=\"#\">Drop-Down Link</a>\n";
+    $html .= "<a href=\"#\" title=\"Training Programs\">Training Programs</a>\n";
     $html .= "<ul>\n";
-    $html .= "<li><a href=\"#\">A Link</a></li>\n";
-    $html .= "<li><a href=\"#\">Another Link</a></li>\n";
+    $html .= "<li><a href=\"uc.php\">University of California</a></li>\n";
     $html .= "</ul>\n";
     $html .= "</li>\n";
-    $html .= "<li><a href=\"#\">Link</a></li>\n";
-    $html .= "<li><a href=\"#\">Link</a></li>\n";
-    $html .= "<li><a href=\"#\">Link</a></li>\n";
-    $html .= "<li><a href=\"#\">Link</a></li>\n";
     $html .= "</ul>\n\n";
     $html .= "<div class=\"clear\"></div></div>\n";
 }
