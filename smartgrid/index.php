@@ -12,4 +12,9 @@ getSide();
 
 //content goes here now
 
+function indexContent() {
+	$html = "";
+	$html .="";
+}
+
 ?>
