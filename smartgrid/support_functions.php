@@ -61,7 +61,7 @@ function getSide() {
 	$html .="<li><a href=\"http://www.pge.com/smartmeter/\" title=\"PG&E Smart Meter\">PG&amp;E SmartMeter</a></li>\n";
 	$html .="<li><a href=\"htt://next10.org/next10/publications/green_jobs.html\" title=\"Next10 Many Shades of Green\">Next10 Many Shades of Green</a></li>\n";
 	$html .="<li><a href=\"http://www.onetonline.org/find/green?n=3&g=Go\" title=\"O*Net Green Sector Jobs\">ONet Green Sector Jobs</a></li>\n";
-	$html .="<li>words</li>\n";
+	//$html .="<li>words</li>\n";
     $html .= "</ul>";
 	$html .= "</div>";
     $html .= "</div>";
@@ -110,4 +110,22 @@ function getNav() {
     $html .= "<div class=\"clear\"></div></div>\n";
 }
 
+
+/*******************************************************************
+*
+*   Author: Kim Holmes
+*   Function: getFooter()
+*   Preconditions: none
+*   Postconditions: Returns HTML for the page footer.
+*
+*******************************************************************/
+
+function getFooter(){
+	$html = "";
+	$html .= "<!-- Close content. -->\n";
+	$html .= "</div>\n";
+	$html .= "</div> <!-- closes the .wrapper div -->\n";
+	$html .= "</body>\n";
+	$html .= "</html>\n";
+}
 ?>

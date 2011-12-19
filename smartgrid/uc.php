@@ -11,32 +11,32 @@ getNav();
 getSide();
 
 //content goes here now; for now it is HTML but later we can format it into PHP if we want.
+ucContent();
 
+getFooter();
 
+function ucContent(){
+    $html = "";
+	$html .= "<div class=\"grid_13 homepage\">\n";
+	$html .= "<h1>University of California</h1>\n";
+	$html .= "<p></p>\n";
+	$html .= "	<form id=\"schoolForm\" class=\"grid_14\">\n";
+	$html .= "		<select id=\"schools\" onchange=\"addClasses()\">\n";
+	$html .= "			<option name=\"berk\" id=\"berk\">University of California - Berkeley</option>\n";
+	$html .= "			<option name=\"davis\" id=\"davis\">University of California - Davis</option>\n";
+	$html .= "			<option name=\"irvine\" id=\"irvine\">University of California - Irvine</option>\n";
+	$html .= "			<option name=\"ucla\" id=\"ucla\">University of California - Los Angeles</option>\n";
+	$html .= "		</select>\n";
+	$html .= "	</form>\n";
+		
+	$html .= "<div class=\"grid_13\" id=\"resultsdiv\">\n";
+	
+	$html .= "</div>\n";
+	
+	$html .= "</div>\n";
+	
+	$html .= "<!-- close the main content area -->\n";
+	
+	echo $html;
+}
 ?>
-
-<div class="grid_13 homepage">
-<h1>University of California</h1>
-<p></p>
-    <form id="schoolForm" class="grid_14">
-    	<select id="schools" onchange="addClasses()">
-        	<option name="berk" id="berk">University of California - Berkeley</option>
-            <option name="davis" id="davis">University of California - Davis</option>
-            <option name="irvine" id="irvine">University of California - Irvine</option>
-            <option name="ucla" id="ucla">University of California - Los Angeles</option>
-        </select>
-    </form>
-    
-<div class="grid_13" id="resultsdiv">
-
-</div>
-
-</div>
-
-<!-- close the main content area -->
-
-<!-- Close content. -->
-</div>
-</div> <!-- closes the .wrapper div -->
-</body>
-</html>
