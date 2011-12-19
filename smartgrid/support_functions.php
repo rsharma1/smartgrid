@@ -54,10 +54,14 @@ function getSide() {
     //append to $html the HTML strings
     $html .= "<div class=\"grid_3\">\n";
 	$html .= "<div class=\"sidebar\">\n";
-    $html .= "<h1>More Information</h1>\n";
+    $html .= "<h1>Resources</h1>\n";
     $html .= "<ul class=\"columnlist\">\n";
-    $html .= "<li>Lorem</li>\n";
-    $html .= "<li>Ipsum</li>\n";
+    $html .= "<li><a href=\"http://greencapitalalliance.org/\" title=\"Green Cap Alliance\">Green Capital Alliance</a></li>\n";
+    $html .= "<li><a href=\"https://www.smud.org/en/residential/customer-service/smart-meters/\" title=\"SMUD Smart Meters\">SMUD Smart Meters</a></li>\n";
+	$html .="<li><a href=\"http://www.pge.com/smartmeter/\" title=\"PG&E Smart Meter\">PG&amp;E SmartMeter</a></li>\n";
+	$html .="<li><a href=\"htt://next10.org/next10/publications/green_jobs.html\" title=\"Next10 Many Shades of Green\">Next10 Many Shades of Green</a></li>\n";
+	$html .="<li><a href=\"http://www.onetonline.org/find/green?n=3&g=Go\" title=\"O*Net Green Sector Jobs\">ONet Green Sector Jobs</a></li>\n";
+	$html .="<li>words</li>\n";
     $html .= "</ul>";
 	$html .= "</div>";
     $html .= "</div>";
