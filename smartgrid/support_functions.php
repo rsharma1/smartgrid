@@ -91,6 +91,7 @@ function getNav() {
     $html .= "<a href=\"#\" title=\"Training Programs\">Training Programs</a>\n";
     $html .= "<ul>\n";
     $html .= "<li><a href=\"uc.php\">University of California</a></li>\n";
+	$html .= "<li><a href=\"comm.php\">Community Colleges</a></li>\n";
     $html .= "</ul>\n";
     $html .= "</li>\n";
     $html .= "</ul>\n\n";
