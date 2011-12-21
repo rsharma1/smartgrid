@@ -11,6 +11,7 @@ getNav();
 getSide();
 
 //content goes here now
+indexContent();
 
 function indexContent() {
 	$html = "";

@@ -86,7 +86,7 @@ function getNav() {
 
     $html .= "<div class=\"grid_16 navigation\">\n";
 	$html .= "<ul class=\"nav\">\n";
-    $html .= "<li><a href=\"index.html\" title=\"Home\">Home</a></li>\n";
+    $html .= "<li><a href=\"index.php\" title=\"Home\">Home</a></li>\n";
     $html .= "<li>\n";
     $html .= "<a href=\"#\" title=\"Training Programs\">Training Programs</a>\n";
     $html .= "<ul>\n";
@@ -96,6 +96,8 @@ function getNav() {
     $html .= "</li>\n";
     $html .= "</ul>\n\n";
     $html .= "<div class=\"clear\"></div></div>\n";
+	
+	echo $html;
 }
 
 
@@ -115,5 +117,7 @@ function getFooter(){
 	$html .= "</div> <!-- closes the .wrapper div -->\n";
 	$html .= "</body>\n";
 	$html .= "</html>\n";
+	
+	echo $html;
 }
 ?>

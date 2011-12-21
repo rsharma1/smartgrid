@@ -22,6 +22,7 @@ function ucContent(){
 	$html .= "<p></p>\n";
 	$html .= "	<form id=\"schoolForm\" class=\"grid_14\">\n";
 	$html .= "		<select id=\"schools\" onchange=\"addClasses()\">\n";
+	$html .= "			<option name=\"select\" id=\"berk\">Select a School</option>\n";
 	$html .= "			<option name=\"berk\" id=\"berk\">University of California - Berkeley</option>\n";
 	$html .= "			<option name=\"davis\" id=\"davis\">University of California - Davis</option>\n";
 	$html .= "			<option name=\"irvine\" id=\"irvine\">University of California - Irvine</option>\n";
