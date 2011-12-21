@@ -18,6 +18,14 @@ function addClasses()
   var berkClasses = "<h1>University of California, Berkeley</h1>";
   var berkClasses = "<a href=\"#fulltime\">Skip to full time courses >></a>";
   berkClasses += "<p>Below are a list of courses one can take at the University to gain knowledge into the various streams on Engineering to gain base knowledge of Smart Grid.</p>";
+  berkClasses += "<h2>UC Berkeley Specialized Programs of Study:</h2>";
+
+  
+  berkClasses += "Website: <a href=\"http://extension.berkeley.edu/spos/smartgrid.html\">http://extension.berkeley.edu/spos/smartgrid.html</a>";
+  berkClasses += "<br>Brochure: <a href=\"http://extension.berkeley.edu/spos/pdf/sustainability.pdf\">http://extension.berkeley.edu/spos/pdf/sustainability.pdf</a>";
+  berkClasses += "<br>Email Address: <a href=\"mailto:course@unex.berkeley.edu\">course@unex.berkeley.edu</a>";
+  berkClasses += "<br>Phone: (510) 642-4151";
+  
   berkClasses += "<h2>UC Berkeley Extension</h2>";
   berkClasses += "<h3>Smart Grid Technology</h3>";
   berkClasses += "<p>The entry-level program provides a solid foundation in smart grid technology (SGT), including a technical overview of networking, electrical engineering, and power transmission and distribution. In addition to a wide range of smart grid theory, you study deployment issues, vendors, demand shaping, and statutory and regulatory requirements—instruction that prepares one to seize new opportunities in the emerging field of networked power.</p>";
