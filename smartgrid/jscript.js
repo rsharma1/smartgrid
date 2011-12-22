@@ -32,17 +32,17 @@ function addClasses()
   berkClasses += "<h4>Who Will Benefit</h4>";
   berkClasses += "<p>Any sustainable professional looking for increased technical knowledge or a technology worker interested in migrating to SGT, the program provides the knowledge needed. The program is also an excellent fit if you're an urban planner, home developer, real estate professional or policy maker looking for new or advanced opportunities in public utilities, commercial construction, renewable energy or electric transportation.</p>";
   
-  berkClasses += "<h5>Smart Grids: Introduction</h5>";
+  berkClasses += "<p class=\"course\">Smart Grids: Introduction</p>";
   berkClasses += "<p>Learn about the new intelligent energy grid that supports the green-energy initiatives of the 21st century. Study real-world value propositions, business perspectives and solution scenarios from business economics and technical practicalities points of view.</p>";
-  berkClasses += "<h5>Smart Grids: Command and Control</h5>";
+  berkClasses += "<p class=\"course\">Smart Grids: Command and Control</p>";
   berkClasses += "<p>In this survey course, you first review the communication technology for distribution automation of AC energy and then advance into technology trade-off considerations. You build a foundation for understanding the control network.</p>";
-  berkClasses += "<h5>Smart Grids: Energy-Efficient Transmission</h5>";
+  berkClasses += "<p class=\"course\">Smart Grids: Energy-Efficient Transmission</p>";
   berkClasses += "<p>Learn about the challenges of high-power interconnections and review quality considerations.</p>";
-  berkClasses += "<h5>Smart Grids: Internet of Things</h5>";
+  berkClasses += "<p class=\"course\">Smart Grids: Internet of Things</p>";
   berkClasses += "<p>Taking smart energy grids as a model, you investigate topics such as wireless sensor network issues, the role of middleware, radio frequency identification (RFID) and sensor network technologies and security and privacy issues.</p>";
-  berkClasses += "<h5>Smart Grids: Metering and Home Area Networks</h5>";
+  berkClasses += "<p class=\"course\">Smart Grids: Metering and Home Area Networks</p>";
   berkClasses += "<p>Gain a solid technical foundation for understanding smart meters and home power networking, including Open HAN system requirements, modern wireless sensor networks, home automation and ZigBee Smart Energy.</p>";
-  berkClasses += "<h5>Smart Grids: Microgrids</h5>";
+  berkClasses += "<p class=\"course\">Smart Grids: Microgrids</p>";
   berkClasses += "<p>Variety of microgrid topics, including distributed generation, wind, photovoltaics, fuel cells, supervisory control and data acquisition (SCADA) systems, securing smart grids, matching community needs, smart meters and devices.</p>";
   
   berkClasses += "<h3>Sustainability and Energy</h3>";
@@ -51,13 +51,13 @@ function addClasses()
   berkClasses += "<p>The curriculum is beneficial if you are a career changer or advancer; working professional in the public or private sector, including public agencies, utilities and energy conservation; energy consultant; business owner; nonprofit organization employee; or sustainability manager. The program is also ideal if you wish to better understand sustainable energy management.</p>";
   berkClasses += "<p>Upon successful completion of the program, you understand the principles of sustainability management and the impact of climate change law on businesses and government; have the necessary skills and knowledge to make assessments and analyze and manage issues related to energy use, climate change and sustainability; and focus your career on clean energy.</p>";
   
-  berkClasses += "<h5>Introduction to Sustainability Management</h5>";
+  berkClasses += "<p class=\"course\">Introduction to Sustainability Management</p>";
   berkClasses += "<p>Sustainability in the context of environmental, economic, and social forces that shape emerging policies and management decisions. Investigate the possibility of creating a common set of sustainability principles</p>";
-  berkClasses += "<h5>Climate Change and Law AB 32: What It Means for You</h5>";
+  berkClasses += "<p class=\"course\">Climate Change and Law AB 32: What It Means for You</p>";
   berkClasses += "<p>Learn requirements set forth in AB 32 and other laws, and gain a solid understanding of related issues.</p>";
-  berkClasses += "<h5>Energy for Sustainability: Technology, Planning and Policy</h5>";
+  berkClasses += "<p class=\"course\">Energy for Sustainability: Technology, Planning and Policy</p>";
   berkClasses += "<p>Evaluate policies, regulations, and laws at the local and state level. Learn how energy strategies impact residential and commercial sectors, corporations, and governments. Examine issues in science, technology, policy, law, and business.</p>";
-  berkClasses += "<h5>Energy Use and Climate Change</h5>";
+  berkClasses += "<p class=\"course\">Energy Use and Climate Change</p>";
   berkClasses += "<p>Examine the threat from the lack of significant incentives to change behavior and shift habits toward sustainable energy consumption in the United States. Study the fundamental impacts from current energy use and the support infrastructure.</p>";
   
   //full time courses for UC Berkeley
