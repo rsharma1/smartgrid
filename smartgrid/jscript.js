@@ -1,7 +1,7 @@
 // JavaScript Document
 
 /********************************************************************
-* File Name:   student_assistant_app.js
+* File Name:   jscript.js
 *
 * Description: Inputs classes based off of selected college
 * 
@@ -102,4 +102,28 @@ function addClasses()
   if (valu == "davis") {result.innerHTML = davisClasses;}
   if (valu == "irvine") {result.innerHTML = irvineClasses;}
   if (valu == "ucla") {result.innerHTML = uclaClasses;}
+}
+
+/********************************************************************
+* File Name:   jscript.js
+*
+* Description: Directs the user to get_school.php's proper function for
+*				the school they have selected.
+* 
+* Programmer:  Kim Holmes 
+*              zorianak@me.com
+********************************************************************/
+function addClasses2()
+{
+  var result = document.getElementById('resultsdiv');
+  var selecter = document.getElementById('schools');
+  
+  var valu = selecter.options[selecter.selectedIndex].id;
+  
+  if (valu == "berk") {result.innerHTML = "<input type=\"submit\" value=\"Continue\" name=\"Continue_berk\" action=\"submit\" /> <input type=\"hidden\" id=\"berk\" name=\"berk\" value=\"berk\" />";
+  }
+  if (valu == "davis") {result.innerHTML = davisClasses;}
+  if (valu == "irvine") {result.innerHTML = irvineClasses;}
+  if (valu == "ucla") {result.innerHTML = uclaClasses;}
+  
 }
