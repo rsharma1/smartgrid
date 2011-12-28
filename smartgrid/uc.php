@@ -27,6 +27,8 @@ function ucContent(){
 	$html .= "			<option name=\"davis\" id=\"davis\">University of California - Davis</option>\n";
 	$html .= "			<option name=\"irvine\" id=\"irvine\">University of California - Irvine</option>\n";
 	$html .= "			<option name=\"ucla\" id=\"ucla\">University of California - Los Angeles</option>\n";
+	$html .= "			<option name=\"ucla\" id=\"ucla\">University of California - Riverside</option>\n";
+	$html .= "			<option name=\"ucla\" id=\"ucla\">University of California - San Diego</option>\n";
 	$html .= "		</select>\n";
 	$html .= "	</form>\n";
 		
